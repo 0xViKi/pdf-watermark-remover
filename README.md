@@ -5,10 +5,7 @@ Console Based Python PDF Watermark Remover. Can be used on single file or Bulk f
 </br>
 </br>
 </br>
-</br>
-</br>
-</br>
-</br>
+
 Download Through Git:
 ```
 git clone https://github.com/ViKi-R/pdf-watermark-remover.git
