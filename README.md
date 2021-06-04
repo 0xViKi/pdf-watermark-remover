@@ -11,7 +11,7 @@ Console Based Python PDF Watermark Remover. Can be used on single file or Bulk f
 </br>
 Download Through Git:
 ```
-git clone https://github.com/ViKi-R/youtube-downloader.git
+git clone https://github.com/ViKi-R/pdf-watermark-remover.git
 ```
 
 To run:
@@ -34,4 +34,5 @@ PyPDF2:
 python3 -m pip install PyPDF2
 ```
 
+Usage:
 
