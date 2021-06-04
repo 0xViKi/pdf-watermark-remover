@@ -1,4 +1,4 @@
-<img align='left' src='https://github.com/ViKi-R/youtube-downloader/blob/main/youtube.ico'></img>
+<img align='left' src='https://github.com/ViKi-R/pdf-watermark-remover/blob/main/pdf.ico'></img>
 
 # Python PDF Watermark Remover
 Console Based Python PDF Watermark Remover. Can be used on single file or Bulk files. 
