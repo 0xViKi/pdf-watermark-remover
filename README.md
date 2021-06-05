@@ -34,5 +34,5 @@ python3 -m pip install PyPDF2
 Usage:
 ```
 </br>
-<img align='left' src='https://github.com/ViKi-R/pdf-watermark-remover/blob/main/pdf-watermark-remover.gif' width="720" height="500"></img>
+<img align='left' src='https://github.com/ViKi-R/pdf-watermark-remover/blob/main/pdf-watermark-remover.gif' width="800" height="720"></img>
 
