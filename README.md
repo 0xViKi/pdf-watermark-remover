@@ -19,7 +19,7 @@ python3 pdf_watermark_remover.py
 Requirments:
 
 1) PyPDF4
-2) PyPDF2
+
 
 To install Requirments:
 
@@ -27,9 +27,8 @@ To install Requirments:
 PyPDF4:
 python3 -m pip install PyPDF4
 
-PyPDF2:
-python3 -m pip install PyPDF2
 ```
+
 ```
 Usage:
 ```
