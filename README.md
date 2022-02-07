@@ -28,7 +28,6 @@ PyPDF4:
 python3 -m pip install PyPDF4
 
 ```
-
 ```
 Usage:
 ```
