@@ -18,6 +18,8 @@ def remove_watermark(wmText, inputFile, outputFile):
     with open(inputFile, "rb") as f:
         source = PdfFileReader(f, "rb")
         output = PdfFileWriter()
+        
+        #print(output)
 
         for page in range(source.getNumPages()):
             page = source.getPage(page)
@@ -35,6 +37,8 @@ def remove_watermark(wmText, inputFile, outputFile):
             page.__setitem__(NameObject('/Contents'), content)
             output.addPage(page)
 
+        #print(output)
+        
         with open(outputFile, "wb") as outputStream:
             output.write(outputStream)
 
