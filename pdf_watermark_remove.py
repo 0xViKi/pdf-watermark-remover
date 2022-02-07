@@ -6,7 +6,6 @@ from PyPDF4 import PdfFileReader, PdfFileWriter
 from PyPDF4.pdf import ContentStream
 from PyPDF4.generic import TextStringObject, NameObject
 from PyPDF4.utils import b_
-import PyPDF2
 import os 
 import time
 import shutil
@@ -48,7 +47,7 @@ def watermark_text(inputFile, waterMarkTextStarting):
 
     wmText = []
     pdfFileObj = open(inputFile, 'rb') 
-    pdfReader = PyPDF2.PdfFileReader(pdfFileObj) 
+    pdfReader = PdfFileReader(pdfFileObj) 
     pageObj = pdfReader.getPage(0) 
     watermark = pageObj.extractText() 
     pdfFileObj.close()
