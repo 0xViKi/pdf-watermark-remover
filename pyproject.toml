@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pdf-watermark-remover"
+version = "1.0.0"
+description = "Console-based PDF watermark removal tool. Remove watermarks from single or bulk PDF files."
+readme = "README.md"
+license = {text = "GPL-3.0"}
+authors = [
+    {name = "ViKi-R", email = "viki@example.com"},
+]
+keywords = ["pdf", "watermark", "remover", "pdf-editing"]
+requires-python = ">=3.7"
+dependencies = [
+    "PyPDF4>=1.27.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=6.0",
+    "black>=22.0",
+]
+
+[project.scripts]
+pdf-watermark-remover = "pdf_watermark_remove:main"
+
+[project.urls]
+Homepage = "https://github.com/ViKi-R/pdf-watermark-remover"
+Repository = "https://github.com/ViKi-R/pdf-watermark-remover.git"
+Documentation = "https://ViKi-R.github.io"
