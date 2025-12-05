@@ -9,7 +9,7 @@ description = "Console-based PDF watermark removal tool. Remove watermarks from 
 readme = "README.md"
 license = {text = "GPL-3.0"}
 authors = [
-    {name = "ViKi-R", email = "viki@example.com"},
+    {name = "ViKi-R"},
 ]
 keywords = ["pdf", "watermark", "remover", "pdf-editing"]
 requires-python = ">=3.7"
@@ -25,8 +25,3 @@ dev = [
 
 [project.scripts]
 pdf-watermark-remover = "pdf_watermark_remove:main"
-
-[project.urls]
-Homepage = "https://github.com/ViKi-R/pdf-watermark-remover"
-Repository = "https://github.com/ViKi-R/pdf-watermark-remover.git"
-Documentation = "https://ViKi-R.github.io"
